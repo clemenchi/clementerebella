@@ -1,52 +1,590 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Clemente Rebella</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/styles.css">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
 
-    <div class="page">
-        <section class="header">
-            
-            <header>
-                <h1><a href="index.html">Clemente Rebella</a></h1>
-                <button type="button" tabindex="-1" hidden></button>
-                <nav>
-                    <div class="nav-logo"><a href="index.html">Clemente Rebella</a></div>
-                    <ul>
-                        <li><a href="index.html#about">About me</a></li>
-                        <li><a href="index.html#about">Experience</a></li>
-                        <li><a href="index.html#about">Projects</a></li>
-                        <li><a href="index.html#about">Contact</a></li>
-                    </ul>
-                </nav>
-            </header>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-        </section>
+    <title>
+      Clemente Rebella | Frontend &amp; WordPress Developer in Perth
+    </title>
 
-         <section class="hero" id="hero">
-            <div class="hero-content">
-                <p class="hero-greeting">Hello!</p>
-                <p class="hero-title">
-                I'm <strong>Clemente Nazareno Rebella</strong>, a user-focused Web Developer and UX Designer creating intuitive and accessible digital experiences
-                </p>
-                <div class="hero-actions">
-                <a href="#projects" class="hero-btn primary">See my work</a>
-                <a href="#contact" class="hero-btn">Contact me</a>
-                </div>
+    <meta
+      name="description"
+      content="Portfolio of Clemente Rebella, a frontend and WordPress developer based in Perth, Australia. View selected projects, experience and development skills."
+    />
+
+    <meta name="theme-color" content="#fafafa" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300..700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container">
+        <nav class="site-nav" aria-label="Primary navigation">
+          <a href="index.html" class="nav-logo">Clemente Rebella</a>
+          <button
+            class="nav-toggle"
+            type="button"
+            aria-label="Open Navigation"
+            aria-expanded="false"
+            aria-controls="primary-menu"
+          >
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+          <ul id="primary-menu">
+            <li><a href="#about">About me</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero" id="hero">
+        <div class="container">
+          <div class="hero-content">
+            <p class="hero-eyebrow">Frontend & Web Developer — Perth, AU</p>
+            <h1 class="hero-title">
+              Creating digital experiences that solve real business needs.
+            </h1>
+
+            <p class="hero-description">
+              Frontend &amp; Web Developer based in Perth, helping businesses
+              create fast, user-focused websites that support their goals.
+            </p>
+
+            <div class="hero-actions">
+              <a href="#projects" class="btn btn-primary">
+                See my work
+                <span class="btn-icon" aria-hidden="true">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 20 20"
+                    fill="currentColor"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M5.22 14.78a.75.75 0 0 1 0-1.06L12.94 6H7.75a.75.75 0 0 1 0-1.5h7.5a.75.75 0 0 1 .75.75v7.5a.75.75 0 0 1-1.5 0V7.56l-7.22 7.22a.75.75 0 0 1-1.06 0Z"
+                      clip-rule="evenodd"
+                    />
+                  </svg>
+                </span>
+              </a>
+
+              <a href="#contact" class="btn btn-secondary">Contact me</a>
             </div>
-        </section>
+          </div>
+        </div>
+      </section>
+      <section class="about" id="about">
+        <div class="container">
+          <h2 class="section-title">About</h2>
 
+          <div class="about-content">
+            <div class="about-copy">
+              <p class="about-lead">
+                I create digital experiences that balance design, performance,
+                and usability
+              </p>
 
-    </div>
+              <p class="about-description">
+                I enjoy turning ideas into modern websites that are simple,
+                intuitive, and enjoyable to use. Every project is an opportunity
+                to combine thoughtful design with clean, maintainable code to
+                create experiences that people genuinely value.
+              </p>
+              <div class="availability">
+                <span class="availability-dot" aria-hidden="true"></span>
+                <span>Open to opportunities</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="about-services">
+            <p class="about-services-label">What I bring</p>
+
+            <ul class="about-services-list">
+              <li>Responsive Development</li>
+              <li>WordPress &amp; Custom Websites</li>
+              <li>UI Implementation</li>
+              <li>Performance Optimisation</li>
+              <li>Accessibility</li>
+              <li>SEO Best Practices</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section class="experience" id="experience">
+        <div class="container">
+          <h2 class="section-title">Experience</h2>
+
+          <article class="experience-item">
+            <div class="experience-meta">
+              <h3 class="experience-company">Secure Temp Fencing Perth</h3>
+
+              <p class="experience-location">Perth, WA</p>
+
+              <p class="experience-date">Nov 2025 — Present</p>
+            </div>
+
+            <div class="experience-content">
+              <p class="experience-role">
+                Business Development &amp; Digital Operations
+              </p>
+
+              <p class="experience-description">
+                Supporting business growth through lead generation, online
+                research and digital operations. Managing website content,
+                digital assets, LinkedIn outreach and client communication to
+                identify and develop new business opportunities.
+              </p>
+
+              <ul class="tag-list" aria-label="Key skills">
+                <li>Lead Generation</li>
+                <li>Digital Operations</li>
+                <li>Website Content</li>
+                <li>LinkedIn Outreach</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="experience-item">
+            <div class="experience-meta">
+              <h3 class="experience-company">Freelance</h3>
+
+              <p class="experience-location">Perth, WA</p>
+
+              <p class="experience-date">Jan 2020 — Nov 2025</p>
+            </div>
+
+            <div class="experience-content">
+              <p class="experience-role">Frontend &amp; WordPress Developer</p>
+
+              <p class="experience-description">
+                Designed and developed responsive WordPress websites for
+                Australian businesses. Managed projects from planning and design
+                through development, launch and ongoing support, with a focus on
+                performance, SEO, usability and accessibility.
+              </p>
+
+              <ul class="tag-list" aria-label="Technologies used">
+                <li>WordPress</li>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>PHP</li>
+                <li>SEO</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="experience-item">
+            <div class="experience-meta">
+              <h3 class="experience-company">Aaron Sansoni Group</h3>
+
+              <p class="experience-location">Melbourne, VIC</p>
+
+              <p class="experience-date">Jan 2020 — Jul 2023</p>
+            </div>
+
+            <div class="experience-content">
+              <p class="experience-role">Frontend Web Developer</p>
+
+              <p class="experience-description">
+                Developed responsive landing pages and custom WordPress websites
+                for digital marketing campaigns. Collaborated with designers and
+                marketers to improve website performance, usability and overall
+                user experience.
+              </p>
+
+              <ul class="tag-list" aria-label="Technologies used">
+                <li>WordPress</li>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>PHP</li>
+                <li>Landing Pages</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="experience-item">
+            <div class="experience-meta">
+              <h3 class="experience-company">AppGenie Australia</h3>
+
+              <p class="experience-location">Melbourne, VIC</p>
+
+              <p class="experience-date">Apr 2020 — Mar 2021</p>
+            </div>
+
+            <div class="experience-content">
+              <p class="experience-role">Frontend Web Developer</p>
+
+              <p class="experience-description">
+                Developed custom websites and responsive WordPress solutions
+                based on client requirements. Converted UI designs into
+                user-friendly interfaces and contributed to web projects
+                integrated with Salesforce solutions.
+              </p>
+
+              <ul class="tag-list" aria-label="Technologies used">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>PHP</li>
+                <li>WordPress</li>
+                <li>Salesforce</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="experience-item">
+            <div class="experience-meta">
+              <h3 class="experience-company">J. Walter Thompson Worldwide</h3>
+
+              <p class="experience-location">Buenos Aires, Argentina</p>
+
+              <p class="experience-date">Aug 2016 — Nov 2019</p>
+            </div>
+
+            <div class="experience-content">
+              <p class="experience-role">
+                Web Developer &amp; Digital Production Lead
+              </p>
+
+              <p class="experience-description">
+                Developed websites, landing pages, HTML emails and digital
+                campaign assets for large marketing campaigns. Worked with UX
+                designers, creatives, developers and marketing teams, including
+                campaigns for Telecom Argentina.
+              </p>
+
+              <ul class="tag-list" aria-label="Key skills">
+                <li>Web Development</li>
+                <li>Landing Pages</li>
+                <li>HTML Email</li>
+                <li>Digital Campaigns</li>
+                <li>Cross-functional Collaboration</li>
+              </ul>
+            </div>
+          </article>
+        </div>
+      </section>
+      <section class="projects" id="projects">
+        <div class="container">
+          <div class="section-heading">
+            <h2 class="section-title">Selected Projects</h2>
+            <span class="project-count">4 projects</span>
+          </div>
+
+          <article class="project-item">
+            <a
+              href="https://perthsupercarhire.com.au/"
+              class="project-image-link"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <div class="project-image">
+                <img
+                  src="img/perthsupercarhire-card.jpg"
+                  alt="Perth Supercar Hire Card"
+                />
+              </div>
+              <div class="project-header">
+                <div class="project-number">
+                  <span>01</span>
+                </div>
+                <div class="project-name">
+                  <h3>Perth Supercar Hire</h3>
+                </div>
+                <div class="project-year">
+                  <span>2024</span>
+                  <span class="project-arrow" aria-hidden="true">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 20 20"
+                      fill="currentColor"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        d="M5.22 14.78a.75.75 0 0 1 0-1.06L12.94 6H7.75a.75.75 0 0 1 0-1.5h7.5a.75.75 0 0 1 .75.75v7.5a.75.75 0 0 1-1.5 0V7.56l-7.22 7.22a.75.75 0 0 1-1.06 0Z"
+                        clip-rule="evenodd"
+                      />
+                    </svg>
+                  </span>
+                </div>
+              </div>
+              <div class="project-description">
+                <p>
+                  Designed and developed a luxury car hire website that
+                  showcases an extensive vehicle fleet, premium experiences, and
+                  multiple service offerings while improving usability, SEO, and
+                  lead generation.
+                </p>
+                <ul class="tag-list" aria-label="Technologies used">
+                  <li>WordPress</li>
+                  <li>WPBakery</li>
+                  <li>HTML</li>
+                  <li>CSS</li>
+                  <li>JavaScript</li>
+                  <li>SEO</li>
+                  <li>PHP</li>
+                </ul>
+              </div>
+            </a>
+          </article>
+          <article class="project-item">
+            <a
+              href="https://aaronsansoni.com/"
+              class="project-image-link"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <div class="project-image">
+                <img src="img/aaronsansoni-card.jpg" alt="Aaron Sansoni Card" />
+              </div>
+              <div class="project-header">
+                <div class="project-number">
+                  <span>02</span>
+                </div>
+                <div class="project-name">
+                  <h3>Aaron Sansoni</h3>
+                </div>
+                <div class="project-year">
+                  <span>2023</span>
+                  <span class="project-arrow" aria-hidden="true">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 20 20"
+                      fill="currentColor"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        d="M5.22 14.78a.75.75 0 0 1 0-1.06L12.94 6H7.75a.75.75 0 0 1 0-1.5h7.5a.75.75 0 0 1 .75.75v7.5a.75.75 0 0 1-1.5 0V7.56l-7.22 7.22a.75.75 0 0 1-1.06 0Z"
+                        clip-rule="evenodd"
+                      />
+                    </svg>
+                  </span>
+                </div>
+              </div>
+              <div class="project-description">
+                <p>
+                  Developed and maintained multiple WordPress websites for Aaron
+                  Sansoni Group, including Empire Group International. Built
+                  responsive pages, implemented new website features, and
+                  created digital marketing assets for social media and paid
+                  advertising while collaborating with designers and marketing
+                  teams to deliver high-impact campaigns.
+                </p>
+                <ul class="tag-list" aria-label="Technologies used">
+                  <li>WordPress</li>
+                  <li>HTML</li>
+                  <li>CSS</li>
+                  <li>JavaScript</li>
+                  <li>PHP</li>
+                  <li>Adobe Creative Suite</li>
+                </ul>
+              </div>
+            </a>
+          </article>
+
+          <article class="project-item">
+            <a
+              href="https://audaciously.com.au/"
+              class="project-image-link"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <div class="project-image">
+                <img src="img/audaciously-card.jpg" alt="Audaciously Card" />
+              </div>
+              <div class="project-header">
+                <div class="project-number">
+                  <span>03</span>
+                </div>
+                <div class="project-name">
+                  <h3>Audaciously</h3>
+                </div>
+                <div class="project-year">
+                  <span>2021</span>
+                  <span class="project-arrow" aria-hidden="true">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 20 20"
+                      fill="currentColor"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        d="M5.22 14.78a.75.75 0 0 1 0-1.06L12.94 6H7.75a.75.75 0 0 1 0-1.5h7.5a.75.75 0 0 1 .75.75v7.5a.75.75 0 0 1-1.5 0V7.56l-7.22 7.22a.75.75 0 0 1-1.06 0Z"
+                        clip-rule="evenodd"
+                      />
+                    </svg>
+                  </span>
+                </div>
+              </div>
+              <div class="project-description">
+                <p>
+                  Designed and developed a modern WordPress website for a
+                  digital marketing agency using WPBakery. Built responsive
+                  layouts with a strong focus on branding, user experience, and
+                  performance while delivering a scalable content management
+                  solution.
+                </p>
+                <ul class="tag-list" aria-label="Technologies used">
+                  <li>WordPress</li>
+                  <li>WPBakery</li>
+                  <li>HTML</li>
+                  <li>CSS</li>
+                  <li>Responsive Design</li>
+                </ul>
+              </div>
+            </a>
+          </article>
+          <article class="project-item">
+            <a
+              href="https://noblesparkselectrical.com.au/"
+              class="project-image-link"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <div class="project-image">
+                <img
+                  src="img/noblesparkselectrical-card.jpg"
+                  alt="Noble Sparks Electrical Card"
+                />
+              </div>
+              <div class="project-header">
+                <div class="project-number">
+                  <span>04</span>
+                </div>
+                <div class="project-name">
+                  <h3>Noble Sparks Electrical</h3>
+                </div>
+                <div class="project-year">
+                  <span>2026</span>
+                  <span
+                    class="project-arrow"
+                    aria-hidden="true"
+                    rel="noopener noreferrer"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 20 20"
+                      fill="currentColor"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        d="M5.22 14.78a.75.75 0 0 1 0-1.06L12.94 6H7.75a.75.75 0 0 1 0-1.5h7.5a.75.75 0 0 1 .75.75v7.5a.75.75 0 0 1-1.5 0V7.56l-7.22 7.22a.75.75 0 0 1-1.06 0Z"
+                        clip-rule="evenodd"
+                      />
+                    </svg>
+                  </span>
+                </div>
+              </div>
+              <div class="project-description">
+                <p>
+                  Designed and developed a responsive WordPress website for a
+                  local electrical contractor using Kadence. Built custom page
+                  layouts, optimised local SEO, and delivered a fast,
+                  user-friendly experience focused on converting visitors into
+                  enquiries.
+                </p>
+                <ul class="tag-list" aria-label="Technologies used">
+                  <li>WordPress</li>
+                  <li>Kadence</li>
+                  <li>HTML</li>
+                  <li>CSS</li>
+                  <li>JavaScript</li>
+                  <li>SEO</li>
+                  <li>PHP</li>
+                </ul>
+              </div>
+            </a>
+          </article>
+        </div>
+      </section>
+
+      <section class="contact" id="contact">
+        <div class="container">
+          <h2 class="section-title">Contact</h2>
+
+          <div class="contact-content">
+            <p class="contact-title">
+              Let’s build something<br />
+              people enjoy using.
+            </p>
+
+            <p class="contact-description">
+              Whether you’re launching a new business, refreshing an existing
+              website, or looking for a frontend developer, I’d love to hear
+              about your next project.
+            </p>
+
+            <a class="contact-email" href="mailto:clementerebella@gmail.com"
+              >clementerebella@gmail.com
+              <span class="btn-icon" aria-hidden="true">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 20 20"
+                  fill="currentColor"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M5.22 14.78a.75.75 0 0 1 0-1.06L12.94 6H7.75a.75.75 0 0 1 0-1.5h7.5a.75.75 0 0 1 .75.75v7.5a.75.75 0 0 1-1.5 0V7.56l-7.22 7.22a.75.75 0 0 1-1.06 0Z"
+                    clip-rule="evenodd"
+                  />
+                </svg>
+              </span>
+            </a>
+
+            <nav
+              class="contact-links"
+              aria-label="Social and professional links"
+            >
+              <a
+                href="https://www.linkedin.com/in/clemente-rebella-web-developer/"
+                target="_blank"
+                rel="noopener noreferrer"
+                >LinkedIn</a
+              >
+              <a
+                href="documents/clemente-rebella-resume.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Resume
+              </a>
+            </nav>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="site-footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-identity">
+            <p>Clemente Rebella</p>
+            <span>Frontend Developer</span>
+          </div>
+
+          <p class="footer-meta">© 2026</p>
+        </div>
+      </div>
+    </footer>
 
     <script src="js/functions.js"></script>
-</body>
+  </body>
 </html>
