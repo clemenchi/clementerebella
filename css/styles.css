@@ -6,6 +6,7 @@ Portfolio v1
     :root {
       /* Colors */
       --color-background: #fafafa;
+      --color-background-secondary: #ffffff;
       --color-text-primary: #111111;
       --color-text-secondary: #6b7280;
       --color-accent: #2563eb;
@@ -609,11 +610,12 @@ Portfolio v1
       }
   
       .hero-eyebrow {
-        margin-bottom: 2rem;
+        margin-bottom: 1rem;
+        font-size: var(--text-xs);
       }
   
       .hero-title {
-        font-size: clamp(2.75rem, 13vw, 4.5rem);
+        font-size: 3.5rem;
         line-height: 1;
       }
   
@@ -715,11 +717,9 @@ Portfolio v1
     }
   
     .about-services-label {
-      margin: 0 0 2rem;
-  
+      margin: 0 0 1.6rem;
       color: var(--color-text-secondary);
-  
-      font-size: var(--text-xs);
+      font-size: var(--text-base);
       font-weight: 600;
       line-height: 1.4;
       letter-spacing: 0.12em;
@@ -743,7 +743,7 @@ Portfolio v1
   
       color: var(--color-text-primary);
   
-      font-size: clamp(1.25rem, 2vw, var(--text-lg));
+      font-size: var(--text-base);
       font-weight: 300;
       line-height: 1.4;
     }
@@ -787,7 +787,7 @@ Portfolio v1
       }
   
       .about-services-list li {
-        font-size: var(--text-lg);
+        font-size: var(--text-base);
       }
   
       .about-services-list li:not(:last-child)::after {
@@ -933,6 +933,7 @@ Portfolio v1
   
       .section-title {
         padding-bottom: 1.5rem;
+        font-size: 2rem;
       }
     }
   }
@@ -1020,6 +1021,10 @@ Portfolio v1
       font-weight: 300;
       color: var(--color-text-secondary);
     }
+
+    .project-description p{
+      font-size: var(--text-base);
+    }
   
     .section-heading {
       display: flex;
@@ -1057,7 +1062,7 @@ Portfolio v1
   
     .contact-content {
       max-width: 720px;
-      padding-block: clamp(5rem, 10vw, 9rem);
+      padding-block: 4rem;
   
       text-align: left;
     }
@@ -1157,11 +1162,11 @@ Portfolio v1
   
     @media (max-width: 768px) {
       .contact-content {
-        padding-block: 5rem;
+        padding-block: 3rem;
       }
   
       .contact-title {
-        font-size: clamp(2.75rem, 13vw, 4.5rem);
+        font-size: 1.8rem;
         line-height: 1;
       }
   
@@ -1239,19 +1244,22 @@ Portfolio v1
     }
   
     @media (max-width: 768px) {
-      .footer-content {
+          .footer-content {
         flex-direction: column;
-        align-items: flex-start;
+        align-items: center;
         gap: 1.5rem;
-  
         padding-block: 2rem;
-      }
+    }
   
       .footer-meta {
         white-space: normal;
       }
     }
   }
+
+.section-muted {
+    background-color: var(--color-background-secondary);
+}
   
   /* ========================================
    REDUCED MOTION
